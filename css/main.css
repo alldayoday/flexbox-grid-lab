@@ -132,7 +132,7 @@ main {
     background-color: #e7e5e5;
     margin: 0;
     font-size: 19px;
-    padding: 1px 114px;
+    padding: 0 115px;
     justify-content: center;
   }
   #brand {
@@ -150,7 +150,7 @@ main {
     grid-area: offer;
     background-color:#e7e5e5;
     align-items: left;
-    padding: 12px 151px 12px;
+    padding: 12px 151px 11px;
     margin: auto;
     font-size: 9px;
     width: auto;
