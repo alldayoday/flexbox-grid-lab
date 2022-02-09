@@ -106,12 +106,12 @@ main {
 
 
 @media only screen and (min-width: 768px) {
+
   main {
     display: grid;
     font-size: 12px;
-    background-color: #d3d0d0;
-    grid-template-rows: 3% 15% 25% 20% 20% 30%;
-    grid-template-columns: 20% 40%;
+    grid-template-rows: 3% 10% 25% 20% 15%;
+    grid-template-columns: 40% 80%;
     grid-template-areas: 
     "status status"
     "empty name"
@@ -122,22 +122,29 @@ main {
   #status {
     text-align: left;
     grid-area: status;
+    margin: 0;
   }
   #face {
     grid-area: face;
     size: fill;
     background-color: white;
     justify-items: center;
+    margin: 0;
   }
   #name {
     grid-area: name;
     background-color: #d3d0d0;
+    margin: 0;
+    font-size: 18px;
+    padding: 0 82px;
+    justify-content: center;
   }
   #brand {
     grid-area: brand;
     display: grid;
     text-align: left;
     background-color: #d3d0d0;
+
   }
   #occupation {
     grid-area: occupation;
@@ -146,8 +153,11 @@ main {
   #offer {
     grid-area: offer;
     background-color:#d3d0d0;
-    justify-content: center;
-    padding: 0;
+    align-self: flex-start;
+    padding: 0 115px;
+    margin: auto;
+    font-size: 9px;
+    width: auto;
   }
   #contact {
     grid-area: contact;
