@@ -135,8 +135,8 @@ main {
     grid-area: name;
     background-color: #e7e5e5;
     margin: 0;
-    font-size: 15px;
-    padding: 0 101px;
+    font-size: 18px;
+    padding: 1px 91px;
     justify-content: center;
   }
   #brand {
