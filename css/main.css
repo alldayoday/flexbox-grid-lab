@@ -24,14 +24,12 @@ body {
   margin: 0;
   display: flex;
   min-height: 100vh;
-  justify-content: center;
   align-items: center;
   width: 50vh;
 }
 
 main {
   display: grid;
-  width: 50vh;
   font-size: 10px;
   grid-template-rows: 3% 25% 15% 20% 20% 30%;
   grid-template-columns: 50% 50%;
@@ -54,12 +52,11 @@ main {
   height: 90px;
   justify-self: center;
   grid-area: face;
-  border: #79f3a4 5px solid;
+  border: #79f3a4 3px solid;
 
 }
 #name {
   justify-self: center;
-  justify-content: center;
   grid-area: name;
 }
 #brand {
@@ -81,7 +78,6 @@ main {
   display: flex;
   height: 65px;
   width: 50vh;
-  margin: 0;
 }
 
 #contact > p {
@@ -90,7 +86,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+
 } 
 
 #contact > p:first-child {
@@ -135,8 +131,8 @@ main {
     grid-area: name;
     background-color: #e7e5e5;
     margin: 0;
-    font-size: 18px;
-    padding: 1px 91px;
+    font-size: 19px;
+    padding: 1px 114px;
     justify-content: center;
   }
   #brand {
@@ -154,7 +150,7 @@ main {
     grid-area: offer;
     background-color:#e7e5e5;
     align-items: left;
-    padding: 12px 123px 12px 124px;
+    padding: 12px 151px 12px;
     margin: auto;
     font-size: 9px;
     width: auto;
